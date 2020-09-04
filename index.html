@@ -6,9 +6,11 @@
 
     <title>Ozmen</title>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="vendors/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="resources/queries.css">
     <link rel="stylesheet" href="main.css">
     
 </head>
@@ -18,9 +20,9 @@
     <header>
     
     <nav class="navbar navbar-expand-md navbar-light fixed-top py-0 bg-white" id="main-nav">
-        <div class="container-xl">
+        <div class="container-xl container-lg container-md">
 
-            <a href="#home" class="navbar-brand">
+            <a href="index.html" class="navbar-brand">
                 <img src="resources/img/logo.png" alt="logo">
             </a>
 
@@ -30,42 +32,43 @@
 
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto font-weight-bold">
-                    <li class="nav-item dropdown mx-2">
-
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            About
-                        </a>
-
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Glory Center Community Church</a>
-                            <a class="dropdown-item" href="#">Glory Realms Ministry</a>
-                            <a class="dropdown-item" href="#">Pure Streams</a>
-                        </div>
-                    </li>
+                    
                     <li class="nav-item mx-2">
-                        <a href="#blog" class="nav-link">Blog</a>
+                        <a href="index.html" class="nav-link active">Home</a>
                     </li>
+
+                    <li class="nav-item mx-2">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+
+                    <li class="nav-item mx-2">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+
                     <li class="nav-item dropdown mx-2">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Broadcast
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Live</a>
-                            <a class="dropdown-item" href="#">Rebroadcast</a>
+                            <a class="dropdown-item" href="live.html">Live</a>
+                            <a class="dropdown-item" href="rebroadcast.html">Rebroadcast</a>
                         </div>
-                      </li>
-                    <li class="nav-item mx-2">
-                        <a href="#partner" class="nav-link">Partner</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a href="#partner" class="nav-link">store</a>
                     </li>
 
                     <li class="nav-item mx-2">
-                        <a class="btn btn-primary" href="#">OZMen's Fellowship</a>
+                        <a href="partner.html" class="nav-link">Partner</a>
                     </li>
+
                     <li class="nav-item mx-2">
-                        <a class="btn btn-outline-primary" href="#">Donate</a>
+                        <a href="store.html" class="nav-link">store</a>
+                    </li>
+
+                    <li class="nav-item mx-2">
+                        <a class="btn btn-primary" href="#">OZMen</a>
+                    </li>
+
+                    <li class="nav-item mx-2">
+                        <a class="btn btn-outline-primary" href="donate.html">Donate</a>
                     </li>
                     
                 </ul>
@@ -79,39 +82,57 @@
 
 
     <!--BG-IMAGE-->
-    <section id="" class="bg-image py-5">
+    <section id="" class="bg-image bg-img-2 py-5 mt-5">
         <div class="container-fluid">
             
-            <div class="row">
-                <div class=" col-sm-6  col-md-6 col-lg-5">
-                    <div class="bg-white mt-5 ml-5">
+            <div class="row pt-3">
+                <div>
+                    <div class="bg-white-2 mt-5 ml-3">
                         <div class="text-dark py-4 pl-5 h6">
                             Recent Tapes
                         </div>
-                        <div class="bg-success ml-3 px-1 mb-5">
-                            <div class="text-dark m-3 pl-2  bg-primary">
-                                <div class="h4">Flowing In Divine Frequency </div>
-                                <div class="h6">A little text about the message goes here.<br>The text should describe the messsage.</div>
+                        <div class=" ml-3 px-1 mb-5 mr-3">
+                            <div class="text-white m-3 pl-2 pb-1 ">
+                                <div class="h4 text-white">Flowing In Divine Frequency 
+                                    <span>                                       
+                                        <a href="#" class="text-white h2 float-right ml-5 "><i class="ion-arrow-down-c"></i></a>                                                                      
+                                    </span>
+                                </div>
+                                <div class="h6 text-dark">A little text about the message goes here.<br>
+                                                          The text should describe the messsage.
+                                </div>
                                 
                             </div>
                         </div>
 
-                        <div class="bg-success ml-3 px-1 mb-5">
-                            <div class="text-dark m-3 pl-2 bg-primary">
-                                <div class="h4">Flowing In Divine Frequency </div>
-                                <div class="h6">A little text about the message goes here.<br>The text should describe the messsage.</div>
+                        <div class=" ml-3 px-1 mb-5 mr-3">
+                            <div class="m-3 pl-2 pb-1 ">
+                                <div class="h4 text-white">Flowing In Divine Frequency 
+                                    <span>                                       
+                                        <a href="#" class="text-white h2 float-right ml-5 "><i class="ion-arrow-down-c"></i></a>                                                                      
+                                    </span>
+                                </div>
+                                <div class="h6 text-dark">A little text about the message goes here.<br>
+                                                           The text should describe the messsage.
+                                </div>
                             </div>
                         </div>
 
-                        <div class="bg-success ml-3 px-1 mb-5">
-                            <div class="text-dark m-3 pl-2 bg-primary">
-                                <div class="h4">Flowing In Divine Frequency </div>
-                                <div class="h6">A little text about the message goes here.<br>The text should describe the messsage.</div>
+                        <div class=" ml-3 px-1 mb-5 mr-3">
+                            <div class="m-3 pl-2 pb-1 ">
+                                <div class="h4 text-white">Flowing In Divine Frequency 
+                                    <span>                                       
+                                        <a href="#" class="text-white h2 float-right ml-5 "><i class="ion-arrow-down-c"></i></a>                                                                      
+                                    </span>
+                                </div>
+                                <div class="h6 text-dark">A little text about the message goes here.<br>
+                                                          The text should describe the messsage.
+                                </div>
                             </div>
                         </div>
 
                         <div class="pl-5 pb-3 h6">
-                            <a href="#" class="text-dark">See More</a>
+                            <a href="#" class="text-white">See More</a>
                         </div>
                         
                     </div>
@@ -124,131 +145,13 @@
 
     <!--  EVENTS  -->
 
-    <section id="upcoming" class="pb-4">
-        <div class="container-fluid">
-            <div class="my-5 text-dark display-4 text-center pt-5">
-                <h2 class=""> Upcoming Events </h2>
-            </div>
-
-            <div class="row mb-5">
-                <div class="col">
-
-                    <div class=" bg-light  mx-5 p-3">
-
-                       <div class="row">
-                            <div class="col-lg-5 ">
-                                <div class="text-right">
-                                    <img src="resources/img/22222222.jpg" width="503px" height="342px" alt="Event-photo">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="">
-                                    <div class="h1 pt-5">School Of Destiny</div>
-                                    <div class="pb-3">
-                                     
-                                        <ion-icon name="time"></ion-icon> 12:00pm
-                                        <ion-icon name="calendar"></ion-icon> 12-07-2020 
-                                    </div>
-
-                                    <div class="h6 pb-3">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>
-                                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br>  
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>
-                                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br>  
-                                    </div>
-
-                                    <div class="btn btn-success px-4 py-2">Add To calendar</div>
-                                </div>
-                            </div>
-                       </div>
-
-                    </div>
-                    
-                </div>
-            </div>
-
-
-            <div class="row mb-5">
-                <div class="col">
-
-                    <div class=" bg-light  mx-5 p-3">
-
-                       <div class="row">
-                            <div class="col-lg-5">
-                                <div class="text-right">
-                                    <img src="resources/img/22222222.jpg" width="503px" height="342px" alt="Event-photo">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="">
-                                    <div class="h1 pt-5">School Of Destiny</div>
-                                    <div class="pb-3">
-                                     
-                                        <ion-icon name="time"></ion-icon> 12:00pm
-                                        <ion-icon name="calendar"></ion-icon> 12-07-2020 
-                                    </div>
-
-                                    <div class="h6 pb-3">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>
-                                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br>  
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>
-                                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br>  
-                                    </div>
-
-                                    <div class="btn btn-success px-4 py-2">Add To calendar</div>
-                                </div>
-                            </div>
-                       </div>
-
-                    </div>
-                    
-                </div>
-            </div>
-
-
-            <div class="row mb-5">
-                <div class="col">
-
-                    <div class="bg-light mx-5 p-3">
-
-                       <div class="row">
-                            <div class="col-lg-5">
-                                <div class="text-right">
-                                    <img src="resources/img/22222222.jpg" width="503px" height="342px" alt="Event-photo">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="">
-                                    <div class="h1 pt-5">School Of Destiny</div>
-                                    <div class="pb-3">
-                                     
-                                        <ion-icon name="time"></ion-icon> 12:00pm
-                                        <ion-icon name="calendar"></ion-icon> 12-07-2020 
-                                    </div>
-
-                                    <div class="h6 pb-3">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>
-                                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br>  
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>
-                                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br>  
-                                    </div>
-
-                                    <div class="btn btn-success px-4 py-2">Add To calendar</div>
-                                </div>
-                            </div>
-                       </div>
-
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="h6 text-center">
-                <a href="#" class="text-dark">See More Events</a>
-            </div>
-
-
+                
+        <div class="h6 text-center">
+            <a href="#" class="text-dark">See More Events</a>
         </div>
+
+
+        
     </section>
 
     <section class="recent-tapes">
@@ -260,25 +163,28 @@
 
             <div class="row ml-3">
 
-                <div class="col-lg-6">
+                <div class="col-xl-6 col-lg-12 col-md-12 mb-4">
 
-                    <div class=" p-3 bg-light">
+                    <div class=" p-3 bg-tapes-custom ml-2 mr-3">
 
                         <div class="row">
-                            <div class="col-lg-6">
-                                <img src="resources/img/tapes-pic.png" alt="tapes-pic">
+                            <div class="col-lg-6 col-sm-12 text-center">
+                                <img src="resources/img/tapes-pic.png" alt="tapes-pic" class="img-fluid">
                             </div>
                             
                             <div class="col-lg-6">
 
-                                <div class="text-dark">
+                                <div class="text-dark tapes-text">
                                     <div class="h4 pt-5 pb-3">The Purified Generation</div>
                                     <div class="h6 pb-3">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>
                                         ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br>  
                                           
                                     </div>
-                                    <div class="btn btn-primary p3-4 py-2 h6 mb-4"> <a href="#" class="text-white"> Download </a></div>
+
+                                    <div class="btn btn-primary p3-4 py-2 h6 mb-4">
+                                         <a href="#" class="text-white text-decoration-none"> Download </a>
+                                    </div>
 
                                     <div class="h6">
                                         <a href="#" class="text-dark">See All Tapes</a>
@@ -293,25 +199,26 @@
 
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-xl-6 col-lg-12 col-md-12 mb-4">
 
-                    <div class=" p-3 bg-light">
+                    <div class=" p-3 bg-tapes-custom ml-2 mr-3">
 
                         <div class="row">
-                            <div class="col-lg-6">
-                                <img src="resources/img/tapes-pic.png" alt="tapes-pic">
+                            <div class="col-lg-6 col-sm-12 text-center">
+                                <img src="resources/img/tapes-pic.png" alt="tapes-pic" class="img-fluid">
                             </div>
                             
                             <div class="col-lg-6">
 
-                                <div class="text-dark">
+                                <div class="text-dark tapes-text">
                                     <div class="h4 pt-5 pb-3">The Purified Generation</div>
                                     <div class="h6 pb-3">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>
-                                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br>  
-                                          
+                                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br>                                           
                                     </div>
-                                    <div class="btn btn-primary p3-4 py-2 h6 mb-4"> <a href="#" class="text-white"> Download </a></div>
+                                    <div class="btn btn-primary p3-4 py-2 h6 mb-4">
+                                         <a href="#" class="text-white text-decoration-none"> Download </a>
+                                    </div>
 
                                     <div class="h6">
                                         <a href="#" class="text-dark">See All Tapes</a>
@@ -325,6 +232,7 @@
                     </div>
 
                 </div>
+
 
             </div>
 
@@ -334,62 +242,93 @@
         </div>
     </section>
 
-    <!--
-        
-        <section class="picture">
+    <section class="expressions pb-5">
+        <div class="container-lg px-5">
+            <div class="p-5">
+                <div class="text-center text-dark text-uppercase pt-5">
+                   <h2 class="h1">My Expressions</h2> 
+                </div> 
 
-        <div class="pic-box">
-
-          <div class="col-4 pic-1">
-            <h5 class="recent">Recent tapes  </h5>
-            <div class="bd row">
-              <div class="pic-txt-2">
-                <h4 class="flow">Flowing In Divine Frequency </h4> 
-                <h5 class="flow-txt">A little text about the message goes here.<br> The text should describe the messsage.</h5>
-               
-              </div>
-
-              <i class="ion-chevron-right icon-txt"></i> -->
-             <!-- <div class="-"><i class="ion-chevron-right"></i></div> -->
-         <!--   </div>
-
-            <div class="bd row">
-              <div class="pic-txt-2">
-                <h4 class="flow">Flowing In Divine Frequency </h4> 
-                <h5 class="flow-txt">A little text about the message goes here.<br> The text should describe the messsage.</h5>
-              </div>
-
-              <div class="icon-txt"><i class="ion-chevron-right"></i></div> -->
-             <!-- <div class="-"><i class="ion-chevron-right"></i></div> -->
-          <!--  </div>
-
-            <div class="bd row">
-              <div class="pic-txt-2">
-                <h4 class="flow">Flowing In Divine Frequency </h4> 
-                <h5 class="flow-txt">A little text about the message goes here.<br> The text should describe the messsage.</h5>
-              </div>
-
-              <div class="icon-txt"><i class="ion-chevron-right"></i></div> -->
-             <!-- <div class="-"><i class="ion-chevron-right"></i></div> -->
+                <p class="h5 font-weight-normal text-center custom-line-height pt-3">
+                    Each expression has a unique focus yet are connected by common threads <br>
+                    of vibrant worship, social reformation and excellence in governance.
+                </p>
             </div>
-
-           <!-- <h6 class="see"><a href="#">See More</a></h6>
-            
-           
-          </div>
-          
         </div>
 
-      </section> -->
+        <div class="container-lg px-5">
+            <div class="row text-center mb-5 mt-2">
+                <div class="col-md-4">
+                    <img src="resources/img/glory-center-2.png" alt="GCCC" class="img-fluid m-5">
+                    <p class="text-center px-4">
+                        Glory Center Community Church <br>
+                        Glory center community church is a family of believers that I pastor.
+                    </p>
 
+                </div>
+
+                <div class="col-md-4">
+                    <img src="resources/img/inside-me-2.png" alt="Pure Streams" class="img-fluid m-5">
+                    <p class="text-center">
+                        Glory Center Community Church <br>
+                        Glory center community church is a family of believers that I pastor.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="resources/img/ozmen-2.png" alt="GCCC" class="img-fluid m-5">
+                    <p class="text-center">
+                        Glory Center Community Church <br>
+                        Glory center community church is a family of believers that I pastor.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row text-center my-5 pt-4">
+                <div class="col-md-4 mt-3">
+                    <img src="resources/img/ozmen-2.png" alt="Pure Streams" class="img-fluid m-5">
+                    <p class="text-center">
+                        Glory Center Community Church <br>
+                        Glory center community church is a family of believers that I pastor.
+                    </p>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <img src="resources/img/glory-center-2.png" alt="GCCC" class="img-fluid m-5">
+                    <p class="text-center">
+                        Glory Center Community Church <br>
+                        Glory center community church is a family of believers that I pastor.
+                    </p>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <img src="resources/img/inside-me-2.png" alt="Pure Streams" class="img-fluid m-5">
+                    <p class="text-center">
+                        Glory Center Community Church <br>
+                        Glory center community church is a family of believers that I pastor.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <!--FOOTER-->
     
+    <footer class="footer-bg pt-5 mt-5 pb-5">
 
+        <p class="h5 text-center"><a href="mailto:hello@olakunlezakariya.org" class="text-white h6">hello@olakunlezakariya.org</a></p>
+  
+       
 
-
-
-
-
-
+        <div class="text-center mb-4">
+           <a href="#" class="icon-fonts m-2 h4 text-white"> <i class="ion-social-instagram-outline"></i> </a>
+           <a href="#" class="icon-fonts m-2 h4 text-white"> <i class="ion-social-twitter"></i> </a>
+           <a href="#" class="icon-fonts m-2 h4 text-white"> <i class="ion-social-facebook"></i> </a>
+        </div>
+  
+    </footer>
 
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 
